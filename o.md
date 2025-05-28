@@ -1,5 +1,5 @@
 # 課題
-# !GitHubまとめ
+# GitHubまとめ
 
 GitHubのダウンロードと使い方
 
