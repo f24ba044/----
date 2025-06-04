@@ -82,3 +82,31 @@ SimpleDialogOption(
 )
 
 2025/06/03
+
+# 4-1教科書
+
+AppBarについて
+
+AppBar(
+  title: ウェジット,
+  leading: ウェジット,
+  actions: <Widget>[ウェジットのリスト],
+  bottom: <PreferredSize>,
+)
+
+AppBarにウェジットとプロパティ、４つのエリアに配置できる
+
+# actionについて
+
+actions: <Widget>[
+  IconButton(
+    icon: Icon(Icons.android),
+    tooltip: 'add star...',
+    onPressed: iconPressedA,
+  )
+]
+
+IconButtonのインスタンスを用意
+actionはタイトルの右側に表示されるので、アイコンなどの小さいスペースが表示内容がわかるものを使う
+
+2025/06/04
