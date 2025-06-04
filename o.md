@@ -109,4 +109,17 @@ actions: <Widget>[
 IconButtonのインスタンスを用意
 actionはタイトルの右側に表示されるので、アイコンなどの小さいスペースが表示内容がわかるものを使う
 
+# 4-2 
+
+# ナビゲーターについて
+
+Navigatorクラスというクラスが用意されてる
+画面切り替えなどをする
+
+移動先をプッシュする
+Navigator.push(<BuildContext>,<Route>);
+
+移動をポップする
+Navigator.pop(<BuildContext>);
+
 2025/06/04
